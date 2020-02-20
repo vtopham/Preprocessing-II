@@ -25,3 +25,19 @@
         
     }
 }
+
+
+.animBgChange(@textColor, @bgColor) {
+    @keyframes switchColor { 
+        from {background-color: @bgColor;
+                color: @textColor;
+        }
+        to {background-color: @textColor;
+            color: @bgColor;
+        }
+    }
+
+    animation-name: switchColor;
+    animation-duration: 4s;
+
+}

@@ -127,6 +127,10 @@
 
   border-bottom: 2px dashed @navigation-border;
 
+  @media @mobile {
+    padding-bottom: 2%;
+  }
+
   h1, p, img {
     padding-bottom: 2%;
   }
@@ -138,3 +142,7 @@
 }
 
 .btnSignup();
+
+.btn:hover {
+  .animBgChange(white, @button-bg);
+}

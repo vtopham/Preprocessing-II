@@ -186,6 +186,9 @@ nav .navigation {
     flex-direction: column;
     text-align: center;
   }
+  nav .navigation h1 {
+    padding-bottom: 2%;
+  }
 }
 nav .navigation .links {
   display: flex;
@@ -325,6 +328,11 @@ nav .navigation a {
   flex-direction: column;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  .header-content {
+    padding-bottom: 2%;
+  }
+}
 .header-content h1,
 .header-content p,
 .header-content img {
@@ -346,5 +354,19 @@ nav .navigation a {
 @media (max-width: 500px) {
   .btn {
     width: 100%;
+  }
+}
+.btn:hover {
+  animation-name: switchColor;
+  animation-duration: 4s;
+}
+@keyframes switchColor {
+  from {
+    background-color: #17A2B8;
+    color: white;
+  }
+  to {
+    background-color: white;
+    color: #17A2B8;
   }
 }
