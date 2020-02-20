@@ -10,12 +10,22 @@ nav {
 
         padding: 2% 0;
 
+        @media @mobile {
+            flex-direction: column;
+            text-align: center;
+        }
+
         .links{
             display: flex;
             justify-content: space-around;
             width: 45%;
 
             align-items: center;
+
+            @media @mobile {
+                width: 100%;
+                justify-content: space-evenly;
+            }
 
         }
         a {
