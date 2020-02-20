@@ -168,6 +168,25 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  border-bottom: 2px dashed #C0C0C0;
+}
+nav .navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+nav .navigation .links {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  align-items: center;
+}
+nav .navigation a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #212529;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +243,14 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.header-content h1,
+.header-content p,
+.header-content img {
+  padding-bottom: 2%;
 }
