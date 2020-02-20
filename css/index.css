@@ -307,6 +307,7 @@ nav .navigation a {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+  border-bottom: 2px dashed #C0C0C0;
 }
 @media (max-width: 500px) {
   .home .content-pick {
@@ -369,4 +370,34 @@ nav .navigation a {
     background-color: white;
     color: #17A2B8;
   }
+}
+.form-container {
+  margin: 30px 0;
+}
+.form-container .package-selections {
+  padding: 15px 0;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.form-container .package-selections label {
+  font-size: 1.6rem;
+}
+.form-container .contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+.form-container .contact-info .textinput {
+  margin: 10px 0;
+}
+.form-container .contact-info .textinput label {
+  padding-right: 10px;
+  font-size: 1.6rem;
+}
+.form-container .btn {
+  width: 200px;
+  margin: 10px auto;
 }
