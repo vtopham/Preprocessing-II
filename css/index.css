@@ -343,7 +343,7 @@ nav .navigation a {
   padding-top: 2%;
 }
 .btn {
-  background: #17A2B8;
+  background: #058080;
   border-radius: 10px;
   height: 40px;
   width: 75%;
@@ -355,6 +355,7 @@ nav .navigation a {
 @media (max-width: 500px) {
   .btn {
     width: 100%;
+    background: #17A2B8;
   }
 }
 .btn:hover {
