@@ -254,3 +254,13 @@ nav .navigation a {
 .header-content img {
   padding-bottom: 2%;
 }
+.btn {
+  background: #17A2B8;
+  border-radius: 10px;
+  height: 40px;
+  width: 75%;
+  color: white;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
